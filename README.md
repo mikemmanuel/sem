@@ -1,6 +1,6 @@
 # Software Engineering Methods
 
-![Github Workflow Status develop)]https://img.shields.io/github/actions/workflow/status/mikemmanuel/sem/:workflow?branch=develop
+![Github Workflow Status develop)]https://img.shields.io/github/actions/workflow/status/mikemmanuel/sem/main.yml?branch=develop
 
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/mikemmanuel/sem/main.yml?branch=master&style=flat-square)
 
