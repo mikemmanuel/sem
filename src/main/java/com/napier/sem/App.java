@@ -12,7 +12,7 @@ public class App
         // Connect to MongoDB on local system - we're using port 27000
         MongoClient mongoClient = new MongoClient("localhost", 27000);
         // Get a database - will create when we use it
-        MongoDatabase database = mongoClient.getDatabase("mydb");
+        MongoDatabase database = mongoClient.getDatabase("mongo-dbserver");
         // Get a collection from the database
         MongoCollection<Document> collection = database.getCollection("test");
         // Create a document to store
@@ -26,5 +26,7 @@ public class App
         // Check document in collection
         Document myDoc = collection.find().first();
         System.out.println(myDoc.toJson());
+
+
     }
 }
